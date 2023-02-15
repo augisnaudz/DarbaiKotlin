@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="319.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.augustino.fxcontrol.LoginCourse">
+    <children>
+        <TextField fx:id="loginF" layoutX="22.0" layoutY="139.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="28.0" />
+        <PasswordField fx:id="pswdF" layoutX="22.0" layoutY="181.0" prefHeight="25.0" prefWidth="306.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="28.0" />
+        <Label layoutX="97.0" layoutY="55.0" text="Prisijungimas">
+            <font>
+                <Font size="24.0" />
+            </font></Label>
+        <Label layoutX="115.0" layoutY="122.0" text="Prisijungimo vardas" />
+        <Label layoutX="131.0" layoutY="164.0" text="Slaptažodis" />
+        <Button layoutX="47.0" layoutY="234.0" mnemonicParsing="false" onAction="#checkAndLoad" prefHeight="25.0" prefWidth="125.0" text="Prisijungti" AnchorPane.leftAnchor="47.0" AnchorPane.rightAnchor="53.0" />
+        <Button layoutX="47.0" layoutY="293.0" mnemonicParsing="false" onAction="#newUserForm" prefHeight="25.0" prefWidth="125.0" text="Naujas vartotojas" AnchorPane.leftAnchor="47.0" AnchorPane.rightAnchor="53.0" />
+    </children>
+</AnchorPane>

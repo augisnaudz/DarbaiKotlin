@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.augustino.fxcontrol.NewProject">
+    <children>
+        <Label layoutX="188.0" layoutY="20.0" text="Naujo projekto pavadinimas">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="nameProjectF" layoutX="217.0" layoutY="47.0" />
+        <Label layoutX="194.0" layoutY="72.0" text="Naujo projekto informacija">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="descProjectF" layoutX="109.0" layoutY="99.0" prefHeight="159.0" prefWidth="383.0" />
+        <Button layoutX="33.0" layoutY="343.0" mnemonicParsing="false" onAction="#doProjeckt" prefHeight="25.0" prefWidth="134.0" text="Sukurti" AnchorPane.leftAnchor="33.0" />
+        <Button layoutX="420.0" layoutY="343.0" mnemonicParsing="false" onAction="#cancelProject" prefHeight="25.0" prefWidth="127.0" text="Atšaukti" AnchorPane.rightAnchor="53.0" />
+      <ComboBox fx:id="respUserBox" layoutX="166.0" layoutY="300.0" prefHeight="25.0" prefWidth="253.0" />
+      <Label layoutX="242.0" layoutY="271.0" text="Atsakingi asmenys!" />
+    </children>
+</AnchorPane>
